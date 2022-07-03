@@ -16,5 +16,5 @@ languages:
 
 dast:
   url: http://ec2-54-151-128-195.ap-southeast-1.compute.amazonaws.com:8000
-  fortipentest_scanner: true #true|false
+  fortipentest_scanner: false #true|false
   full_scan: true #true|false
