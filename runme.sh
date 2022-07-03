@@ -1,4 +1,5 @@
 #!/bin/bash
+
 date >> output.log
 whoami >> output.log
 pwd >> output.log
