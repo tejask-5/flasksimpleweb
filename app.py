@@ -8,13 +8,13 @@ def Home():
    ipAddr=socket.gethostbyname(hostname)
    return "<h1>Hello Jew, "+hostname+", "+ipAddr+"</h1>"
 
-@app.route('/e3540078-1fed-4f26-9d80-2060b71c00d0.html')
+@app.route('/8d7ed8ec-203c-4677-adda-a5bcde82b1c4.html')
 def uuidchecking():
    return ""
 
 @app.route('/forti-uuid.html')
 def uuidDetailCheck():
-   return "<forti-uuid hidden>e3540078-1fed-4f26-9d80-2060b71c00d0</forti-uuid>"
+   return "<forti-uuid hidden>8d7ed8ec-203c-4677-adda-a5bcde82b1c4</forti-uuid>"
 
 if __name__ == '__main__':
  app.debug = True
