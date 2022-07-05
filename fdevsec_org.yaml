@@ -1,0 +1,20 @@
+version: v1 
+
+id:
+  org: 1c2ff286-014e-48f9-97bd-9b39dc05f699
+  app: 26b48ea6-7a68-43ee-bbcd-4b36225412b3
+
+# Optional parameters.
+scanners:
+  - sast
+  - secret
+  - dast
+  - sca
+
+languages:
+  - python
+
+dast:
+  url: http://chanvit.fortiseahk.com:8000/
+  fortipentest_scanner: true #true|false
+  full_scan: true #true|false
