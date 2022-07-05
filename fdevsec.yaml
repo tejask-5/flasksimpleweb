@@ -15,6 +15,6 @@ languages:
   - python
 
 dast:
-  url: http://ec2-54-151-128-195.ap-southeast-1.compute.amazonaws.com:8000
+  url: http://chanvit.fortiseahk.com:8000/
   fortipentest_scanner: true #true|false
   full_scan: true #true|false
