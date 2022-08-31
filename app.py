@@ -9,7 +9,7 @@ pwd="zxcv@asdf"
 def Home():
    hostname=socket.gethostname()
    ipAddr=socket.gethostbyname(hostname)
-   return "<h1>Hello Jew1234, "+hostname+", "+ipAddr+"</h1>"
+   return "<h1>Hello People, "+hostname+", "+ipAddr+"</h1>"
 
 @app.route('/8d7ed8ec-203c-4677-adda-a5bcde82b1c4.html')
 def uuidchecking():
@@ -21,4 +21,4 @@ def uuidDetailCheck():
 
 if __name__ == '__main__':
  app.debug = True
- app.run(host='0.0.0.0', port=8000)
+ app.run(host='0.0.0.0', port=8001)
