@@ -3,8 +3,8 @@ Description=My Python Flask Web
 After=network.service
 
 [Service]
-WorkingDirectory=/flasksimpleweb
-ExecStart=/flasksimpleweb/runme.sh
+WorkingDirectory=/myweb/flasksimpleweb
+ExecStart=/myweb/flasksimpleweb/runme.sh
 
 [Install]
 WantedBy=default.target
