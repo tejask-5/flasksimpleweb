@@ -15,5 +15,7 @@ languages:
   - python
 
 dast:
-  url: http://chanvit.fortiseahk.com:8000/
+  url: http://dev-app1.fortiseahk.com:44444/
+  fortipentest_scanner: true #true|false
+  full_scan: false
 
