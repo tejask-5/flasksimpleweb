@@ -2,9 +2,6 @@ import socket
 from flask import Flask
 app = Flask(__name__)
 
-username="asdf"
-pwd="zxcv@asdf"
-
 @app.route('/')
 def Home():
    hostname=socket.gethostname()
