@@ -6,7 +6,7 @@ app = Flask(__name__)
 def Home():
    hostname=socket.gethostname()
    ipAddr=socket.gethostbyname(hostname)
-   return "<h1>Hello awesome Peoples here + scanned . Welcome to the demo and I hope you will enjoy it.. how are you, are you don well "+hostname+", "+ipAddr+"</h1>"
+   return "<h1>Hello awesome Peoples here + scanned . Welcome to the demo and I hope you will enjoy"+hostname+", "+ipAddr+"</h1>"
 
 @app.route('/8d7ed8ec-203c-4677-adda-a5bcde82b1c4.html')
 def uuidchecking():
