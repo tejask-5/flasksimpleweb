@@ -1,0 +1,20 @@
+version: v1
+
+id:
+  org: 1c2ff286-014e-48f9-97bd-9b39dc05f699
+  app: 3a0bdba5-e08e-416b-9a3e-0ed9d3d3839c
+
+# Optional parameters.
+scanners:
+  - sast
+  - secret
+  - dast
+  - sca
+
+languages:
+  - python
+
+dast:
+  url: http://dev-app1.fortiseahk.com:44444/
+  fortipentest_scanner: true #true|false
+  full_scan: false
